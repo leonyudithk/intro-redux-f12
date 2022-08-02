@@ -1,10 +1,12 @@
 import { combineReducers, createStore } from "redux";
 import { reducersCounter } from "../reducers/reducersCounter";
+import { reducersProducts } from "../reducers/reducersProducts";
 
 const reducers = combineReducers(
     {
         countStore: reducersCounter,
-       
+        productoStore: reducersProducts
+      
     }
 )
 
